@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- <h1 id="h"></h1>
+    <button id="btn">click</button>
+    <button id="btn1">again click</button>
+    <button id="btn2">capital</button>
+    <button id="btn3">lowercase</button>
+    <button id="btn4">center</button>
+    
+    <script>
+        document.getElementById("btn").onclick = function () {
+            document.getElementById("h").style.backgroundColor = "yellow";
+
+        }
+        document.getElementById("btn1").onclick = function () {
+            document.getElementById("h").style.backgroundColor = "white";
+        }
+        document.getElementById("btn2").onclick = function () {
+            document.getElementById("h").style.textTransform = "uppercase";
+        }
+        document.getElementById("btn3").onclick = function () {
+            document.getElementById("h").style.textTransform = "lowercase";
+        }
+        document.getElementById("btn4").onclick = function () {
+            document.getElementById("h").style.textAlign = "center"
+        }
+
+
+        document.getElementById("h").innerHTML = "this is my project";
+        document.getElementById("h").style.color = "red";
+        document.getElementById("h").style.border = "2px solid black"; -->
+
+    <!-- ------------------------------------------------------------------------------------------------------------------------------------------------ -->
+    <!-- ----------------------------------------------------------------------------------------------------------------------------------------- -->
+
+
+    <input type="text" id="name">
+    <button id="btn">submit</button>
+    <button id="btn1">show image</button>
+    <button id="btn2"> hide image</button>
+
+    <img src="okayy.jpg" alt="" id="img1" style="display: none;">
+
+
+
+    <script>
+        document.getElementById("btn").onclick = function () {
+
+            let a = document.getElementById("name").value
+            console.log(a)
+        }
+
+
+        document.getElementById("btn1").onclick = function () {
+            document.getElementById("img1").style.display = ""
+        }
+
+        document.getElementById("btn2").onclick = function () {
+            document.getElementById("img1").style.display = "none"
+        }
+    </script>
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
